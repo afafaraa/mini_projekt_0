@@ -1,0 +1,44 @@
+dialog{
+    position: absolute;
+    transform: translate(30vw, -5vw);
+    border: none;
+    box-shadow: 0 0 30px rgba(28, 25, 42, 1);
+    height: 15vh;
+    width: 30vw;
+    z-index: 20;
+    padding: 1%;
+}
+
+dialog input{
+    margin-top: 5px;
+    width: 98%;
+    height: 60%;
+    padding: 3px 6px;
+    outline: none;
+    margin-bottom: 15px;
+    border-radius: 0;
+    border: 1px solid rgba(28, 25, 42, 1);
+}
+
+dialog button{
+    font-size: 15px;
+    width: 47%;
+    height: 35px;
+    border-radius: 0;
+    background-color: rgba(28, 25, 42, 1);
+    color: #ececec;
+    border:none;
+    cursor: pointer;
+}
+
+.rightBtn{
+    background: none;
+    color: rgba(28, 25, 42, 1);
+    border: 1px solid rgba(28, 25, 42, 1);
+    margin-left: 4%;
+}
+
+
+dialog input{
+    font-family: Oswald, sans-serif;
+}

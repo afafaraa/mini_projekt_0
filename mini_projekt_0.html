@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>The art of af.kra</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/styles_general.css">
+        <script defer src="scripts/main.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <button class="logo"></button>
+            <div class="navigation">
+                <ul>
+                    <li><button id="closeBtn">CLOSE</button></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#store">STORE</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="home hidden">
+            <h1>THE ART OF AF.KRA</h1>
+            <p>Hi, welcome to my page! I'm Aleksandra Fąfara or af.kra on socials and this is a page about me and my art.<br>Check out my store and if you have any questions feel free to send me a message down below. Commissions are currently closed, as I have a lot of homework for my web dev classes. Have a wonderfull day.</p>
+        </div>
+        <section id="gallery">
+            <div class="gallery_box digital">
+                <div class="box_1"></div>
+                <div class="box_2"></div>
+                <div class="text_gallery box_3">
+                    <h1 class="hidden">DIGITAL ARTWORKS</h1>
+                    <p class="hidden">I've been doing digital art for 2 years now and here are all of my paintings that I consider A OK. All paintings were made using Krita, but there might be some Heavepaint sketches coming to this page soon. I use Huion Kamvas 12 Pro display tablet and a resolution of 300 ppi.</p>
+                    <a class="hidden" href="./digital_gallery.html">DIGITAL GALLERY</a>
+                </div>
+            </div>
+            <div class="gallery_box traditional">
+                <div class="box_1"></div>
+                <div class="box_4"></div>
+                <div class="text_gallery box_5">
+                    <h1 class="hidden">TRADITIONAL SKETCHES</h1>
+                    <p class="hidden">Most of my life I've been actually doing traditional art. I've tried many mediums, but I find pen, pencils and alcohol markers most comfortable. I currently use Ohuhu brush markers and recmmend them to everyone. They're much cheaper and actually better than most of the mainstream brands.</p>
+                    <a class="hidden" href="./traditional_gallery.html">TRADITIONAL GALLERY</a>
+                </div>
+            </div>
+        </section>
+        <section id="store">
+            <div class="store_text_box">
+                <h1 class="hidden">MY STORE AND COURSES</h1>
+                <p class="hidden">If you're interested in buying my prints or stickers I've recently launched a store so check it out. Also I'm currently working on making 3 courses: for beginners, intermediate and <br>advanced artists. You can go to my courses page to see what topics they'll <br>cover and vote for what you'd be most interested in. The most voted <br>course will be launched first. All of the courses have a free preview <br>and a list of classes they provide.</p>
+                <ul>
+                    <li><a href="https://www.inprnt.com/">PRINTS AND STICKERS</a></li>
+                    <li><a href="./courses.html">COURSES</a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact_box">
+                <div class="upper_box"></div>
+                <div class="lower_box"></div>
+                <div class="mid_box">
+                    <div class="contact_text">
+                        <h1 class="hidden">CONTACT ME</h1>
+                        <p class="hidden">If you have any questions about my porducts or courses you can contact me here:</p>
+                        <form id="contactForm">
+                            <input class="form_item" type="text" id="name" placeholder="Your name">
+                            <input class="form_item" id="email" placeholder="Your email, so that I can answer you">
+                            <textarea class="form_item" placeholder="Your message" rows="5" id="message"></textarea>
+                            <button onclick="validate()" class="form_item" type="submit">SEND A MESSAGE</button>
+                        </form>
+                    </div>
+                    <div class="contact_img"></div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer_container">
+                <div class="upper_line hidden">
+                    <div class="socials hidden">
+                        <p>FOLLOW ME</p>
+                        <ul class="hidden">
+                            <li><a target="_blank" href="https://www.instagram.com/af.kra/"><img src="./images/ig_icon.png"></a></li>
+                            <li><a target="_blank" href="https://www.artstation.com/af_kra"><img src="./images/artstation_icon.png"></a></li>
+                            <li><a target="_blank" href="https://www.deviantart.com/afkra"><img src="./images/deviantart_icon.png"></a></li>
+                        </ul>
+                        <article class="copyright">COPYRIGHT © 2023 The art of af.kra</article>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

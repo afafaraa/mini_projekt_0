@@ -1,0 +1,164 @@
+.img1{
+    background-image: url("../images/images_digital_gallery/img_001.jpg");
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.img2{
+    background-image: url("../images/images_digital_gallery/img_002.jpg");
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.img3{
+    background-image: url("../images/images_digital_gallery/img_003.jpg");
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+.img4{
+    background-image: url("../images/images_digital_gallery/img_004.jpg");
+    grid-row: 2/3;
+    grid-column: 1/2;
+    /*background-size: cover;*/
+}
+
+.img5{
+    background-image: url("../images/images_digital_gallery/img_005.jpg");
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.img6{
+    background-image: url("../images/images_digital_gallery/img_006.jpg");
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+.img7{
+    background-image: url("../images/images_digital_gallery/img_007_1.jpg");
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.img8{
+    background-image: url("../images/images_digital_gallery/img_008.jpg");
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+.img9{
+    background-image: url("../images/images_digital_gallery/img_009.jpg");
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+
+.img10{
+    background-image: url("../images/images_digital_gallery/img_010.jpg");
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.img11{
+    background-image: url("../images/images_digital_gallery/img_011.jpg");
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.img12{
+    background-image: url("../images/images_digital_gallery/img_012.jpg");
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+.img13{
+    background-image: url("../images/images_digital_gallery/img_013.jpg");
+    grid-row: 2/3;
+    grid-column: 1/2;
+    /*background-size: cover;*/
+}
+
+.img14{
+    background-image: url("../images/images_digital_gallery/img_014.jpg");
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.img15{
+    background-image: url("../images/images_digital_gallery/img_015.jpg");
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+.img16{
+    background-image: url("../images/images_digital_gallery/img_016.jpg");
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.img17{
+    background-image: url("../images/images_digital_gallery/img_017_1.jpg");
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+.img18{
+    background-image: url("../images/images_digital_gallery/img_018.jpg");
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+
+.img19{
+    background-image: url("../images/images_digital_gallery/img_019.jpg");
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.img20{
+    background-image: url("../images/images_digital_gallery/img_020.jpg");
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.img21 {
+    background-image: url("../images/images_digital_gallery/img_021.jpg");
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+.img22{
+    background-image: url("../images/images_digital_gallery/img_022.jpg");
+    grid-row: 2/3;
+    grid-column: 1/2;
+    /*background-size: cover;*/
+}
+
+.img23{
+    background-image: url("../images/images_digital_gallery/img_023.jpg");
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.img24{
+    background-image: url("../images/images_digital_gallery/img_024.jpg");
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+.img25{
+    background-image: url("../images/images_digital_gallery/img_025.jpg");
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.img26{
+    background-image: url("../images/images_digital_gallery/img_026.jpg");
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+.img27{
+    background-image: url("../images/images_digital_gallery/img_027.jpg");
+    grid-row: 3/4;
+    grid-column: 3/4;
+}

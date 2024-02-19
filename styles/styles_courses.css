@@ -1,0 +1,203 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue";
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #ececec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    box-shadow: 0 0 50px #818186;
+    height: 85vh;
+    width: 90vw;
+    /*border: 1px solid red;*/
+    /*border-radius: 30px;*/
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 100%;
+    color: rgba(28, 25, 42, 1);
+}
+
+.box_left{
+    /*overflow: hidden;*/
+    /*border: 1px solid red;*/
+    grid-column: 1/2;
+}
+
+.box_left ul{
+    transform: translateY(10px);
+    margin-top: 35px;
+    margin-bottom: 15px;
+    margin-left: 37px;
+    list-style: none;
+}
+
+.box_left ul li{
+    display: inline;
+}
+
+.box_left ul li a{
+    padding: 5px 15px;
+    margin: 5px 15px;
+    font-family: Oswald,sans-serif;
+    text-decoration: none;
+    color: rgba(28, 25, 42, 1);
+    border: 1px solid rgba(28, 25, 42, 1);
+    /*opacity: 0.4;*/
+    transition: 0.5s;
+}
+
+.box_left ul li a:hover{
+    /*opacity: 1;*/
+    background-color: rgba(28, 25, 42, 1);
+    color: #ececec;
+    /*border-radius: 30px;*/
+}
+
+.left_text{
+    padding-left: 50px;
+    /*padding-top: 10px;*/
+}
+
+.left_text h1{
+    /*border: 1px solid red;*/
+    font-size: 120px;
+    transform: translateX(-3px);
+    /*letter-spacing: 10px;*/
+}
+
+.left_text p{
+    transform: translateY(-35px);
+    font-size: 20px;
+    /*letter-spacing: 2px;*/
+    font-family: Oswald,sans-serif;
+    line-height: 1.5;
+}
+
+.box_right{
+    /*overflow: hidden;*/
+    grid-column: 2/3;
+    background-image: linear-gradient(rgba(28, 25, 42, 0.4), rgba(0,0,0,0.4)), url("../images/img_009.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.courses{
+    display: grid;
+    /*border: 1px solid red;*/
+    height: 50%;
+    width: 90%;
+    margin-left: 50px;
+    /*margin-top: 30px;*/
+    grid-template-columns: 31% 31% 31%;
+    gap: 3.5%;
+    grid-template-rows: 100%;
+}
+
+.box{
+    text-decoration: none;
+    color: rgba(28, 25, 42, 1);
+    box-shadow: 0 0 15px #acacb2;
+    /*border-radius: 30px;*/
+    /*border: 1px solid red;*/
+    margin: 5px;
+    transition: 0.3s;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+/*.content{*/
+/*    grid-column: 1/expressTest1;*/
+/*    !*background-color: #0f172a;*!*/
+/*}*/
+
+#beginner_image_box{
+    background-image: linear-gradient(rgba(28, 25, 42, 0.5), rgba(0,0,0,0.5)), url("../images/images_courses/il_013_sketch.jpg");
+}
+
+#intermediate_image_box{
+    background-image: linear-gradient(rgba(28, 25, 42, 0.3), rgba(0,0,0,0.3)), url("../images/images_courses/il_13_p.jpg");
+}
+
+#advanced_image_box{
+    background-image: linear-gradient(rgba(28, 25, 42, 0.2), rgba(0,0,0,0.2)), url("../images/images_courses/il_013_1.jpg");
+}
+
+
+.image_box{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.content ul{
+    grid-column: 1/-1;
+    padding: 0px 10px;
+    max-width: 12vw;
+    margin: 0;
+    line-height: 1.5;
+    font-family: Oswald,sans-serif;
+    transform: translateY(-1vh);
+    /*border:1px solid red;*/
+}
+
+.vote_button{
+    grid-column: 1/2;
+    font-family: Oswald, sans-serif;
+    /*border: 1px solid red;*/
+    padding: 0px 15px;
+    height: 80%;
+    font-size: 15px;
+    color: rgba(28, 25, 42);
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    transform: translateY(-1vh);
+    background-color: rgba(28, 25, 42,0.3);
+}
+
+h4{
+    font-size: 25px;
+    padding: 5px 10px;
+    /*border: 1px solid red;*/
+    font-family: Oswald,sans-serif;
+}
+
+.counter{
+    transform: translateY(-1vh);
+    grid-column: 2/-1;
+    font-size: 30px;
+    /*border: 1px solid red;*/
+    text-align: center;
+}
+
+.box:hover{
+    box-shadow: 0 0 15px #737379;
+    margin: 0px;
+    /*border-radius: 30px;*/
+    /*border: #0f172a;*/
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    transition-delay: 0.1s;
+}

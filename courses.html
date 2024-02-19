@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Af.kra's art courses</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/styles_courses.css">
+        <link rel="stylesheet" href="styles/dialogs.css">
+        <script defer src="scripts/main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box_left">
+                <ul>
+                    <li><a href="./mini_projekt_0.html">HOME</a></li>
+                    <li><a href="https://www.inprnt.com/">STORE</a></li>
+                    <li><a href="./mini_projekt_0.html #contact">CONTACT</a></li>
+                </ul>
+                <div class="left_text">
+                    <h1 class="hidden">MY ART COURSES</h1>
+                    <p class="hidden">Hi, unfortunetetly the courses are not avaliable yet, but you can check the descriptions and vote for the most interesting you course. Highest voted one will be launched first.</p>
+                </div>
+                <div class="courses">
+<!--                    dialogs-->
+                    <dialog id="dialogBgn">
+                        <form id="formBgn">
+                            <input type="email" placeholder="Enter your email to validate the vote" id="iptBgn">
+                            <button type="button" id="btnVoteBgn">VOTE</button>
+                            <button class="rightBtn" type="button" id="btnCancelBgn">CANCEL</button>
+                        </form>
+                    </dialog>
+                    <dialog id="dialogItm">
+                        <form id="formItm">
+                            <input type="email" placeholder="Enter your email to validate the vote" id="iptItm">
+                            <button type="button" id="btnVoteItm">VOTE</button>
+                            <button class="rightBtn" type="button" id="btnCancelItm">CANCEL</button>
+                        </form>
+                    </dialog>
+                    <dialog id="dialogAdv">
+                        <form id="formAdv">
+                            <input type="email" placeholder="Enter your email to validate the vote" id="iptAdv">
+                            <button type="button" id="btnVoteAdv">VOTE</button>
+                            <button class="rightBtn" type="button" id="btnCancelAdv">CANCEL</button>
+                        </form>
+                    </dialog>
+<!--                    dialogs-->
+                    <div class="box">
+                        <div class="content">
+                            <h4 class="hidden">BEGINNER</h4>
+                            <ul class="hidden">
+                                <li>> observation and simplification of the figure</li><br>
+                                <li>> basic anatomy and gesture</li><br>
+                                <li>> one and two point perspective</li><br>
+                                <li>> basics of color theory</li><br>
+                                <li>> how light and shadow affects form</li><br>
+                            </ul>
+                            <button type="button" id="btnOpnBgn" class="vote_button">VOTE</button>
+                            <p id="counterBgn" class="counter">0</p>
+                        </div>
+                        <div class="image_box" id="beginner_image_box"></div>
+                    </div>
+                    <div class="box">
+                        <div class="content">
+                            <h4 class="hidden">INTERMEDIATE</h4>
+                            <ul class="hidden">
+                                <li>> how to apply composition to your paintings</li><br>
+                                <li>> design theory</li><br>
+                                <li>> intermediate anatomy</li><br>
+                                <li>> three point perspective</li><br>
+                                <li>> intermediate color theory</li><br>
+                                <li>> how to plan out illustrations</li><br>
+                            </ul>
+                            <button type="button" id="btnOpnItm" class="vote_button">VOTE</button>
+                            <p id="counterItm" class="counter">0</p>
+                        </div>
+                        <div class="image_box" id="intermediate_image_box"></div>
+                    </div>
+                    <div class="box">
+                        <div class="content">
+                            <h4 class="hidden">ADVANCED</h4>
+                            <ul class="hidden">
+                                <li>> advanced anatomy and character design</li><br>
+                                <li>> four and five point perspective</li><br>
+                                <li>> advanced color theory - multicolor paintings</li><br>
+                                <li>> worldbuilding for illustrations</li><br>
+                            </ul>
+                            <button type="button" id="btnOpnAdv" class="vote_button">VOTE</button>
+                            <p id="counterAdv" class="counter">0</p>
+                        </div>
+                        <div class="image_box" id="advanced_image_box"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="box_right">
+            </div>
+        </div>
+        <script defer src="./scripts/courses.js"></script>
+    </body>
+</html>
